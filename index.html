@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Отключает формирование ссылки у номера телефона на iOS-->
     <meta name="format-detection" content="telephone=no">
-    <title>Woman</title>
+    <title>Shopy</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="script/script.js"></script>
-    <script src="https://use.fontawesome.com/c777c53d60.js"></script>
+
 
 </head>
 
@@ -21,34 +22,122 @@
     <div class="allWrap">
         <header>
             <div class="container">
-               <div class="header-contact">
-                    <div class="header-contact-mail">info@shopy.com</div>
-                    <div class="header-contact-phone">453-5553-996</div>          
-               </div>
-            <div class="header-social">
-                <div class="faceboock">
-                    faceboock
+                <div class="header-container">
+                    <div class="header-contact">
+                        <div class="header-contact-mail">
+                            <span>info@shopy.com</span>
+                        </div>
+                        <div class="header-contact-phone">
+                            <span><a href="tel:4535553996">453-5553-996</a></span>
+                        </div>
+                    </div>
+                    <div class="header-social">
+                        <div class="social faceboock">
+                            <a href="https://facebook.com" target="_blank"> <i class="fab fa-facebook-f"></i></a>
+                        </div>
+                        <div class="social twitter">
+                            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+
+                        </div>
+                        <div class="social google">
+                            <a href="https://plus.google.com" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+
+                        </div>
+                        <div class="social instagram">
+                            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+
+                        </div>
+                    </div>
                 </div>
-                <div class="twitter">
-                    twitter
+                <div class="header-top">
+                    <div class="join-two-block">
+                        <div class="logo"><img src="img/Logo.png" alt=""></div>
+                        <nav class="navigation-menu">
+                            <ul class="main-menu">
+                                <li class="main-menu-item activation"><a href="#">Товары</a></li>
+                                <li class="main-menu-item"><a href="#">Горящее предложение</a></li>
+                                <li class="main-menu-item"><a href="#">О нас</a></li>
+                                <li class="main-menu-item"><a href="#">Главная</a></li>
+                                <li class="main-menu-item"><a href="#">Контакты</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="info">
+                        <div class="info-item form-search active">
+                            <input type="text" name="search" placeholder="Поиск...">
+                        </div>
+                        <div class="info-item search"><i class="fas fa-search"></i></div>
+                        <div class="info-item profile"><a href="#"><img src="img/user.png" alt=""></a></div>
+                        <div class="info-item cart"><a href="#"><img src="img/Cart.png" alt=""></a></div>
+                    </div>
                 </div>
-                <div class="google">
-                    google
+            </div>
+        </header>
+        <main>
+            <div class="slider">
+                <div class="switch">
+                    <input type="button" class="switch-button" value="">
+                    <input type="button" class="switch-button switch-active" value="">
+                    <input type="button" class="switch-button" value="">
                 </div>
-                <div class="instagram">
-                    instagram
+                <div class="slider-item">
+                    <div class="slider-item-image">
+                        <img src="img/slide1.jpg" alt="">
+                    </div>
+
+                    <div class="slider-item-text">
+                        <h2 class="text-header">Полный зимний комплект</h2>
+                        <p class="text-title">Полушубок + кожаные брюки + кожаные ботинки</p>
+                        <p class="text-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic autem molestiae maiores eaque libero!</p>
+                        <div class="price">
+                            <div class="price-text">Цена: 120$</div>
+                            <div class="price-cart"><a href="#">Заказывай прямо сейчас</a></div>
+                        </div>
+                    </div>
+
                 </div>
-            </div>   
                 
-               
+                <div class="slider-item">
+                    <div class="slider-item-image">
+                        <img src="img/slide1.jpg" alt="">
+                    </div>
+
+                    <div class="slider-item-text">
+                        <h2 class="text-header">Полный зимний комплект</h2>
+                        <p class="text-title">Полушубок + кожаные брюки + кожаные ботинки</p>
+                        <p class="text-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic autem molestiae maiores eaque libero!</p>
+                        <div class="price">
+                            <div class="price-text">Цена: 120$</div>
+                            <div class="price-cart"><a href="#">Заказывай прямо сейчас</a></div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="slider-item">
+                    <div class="slider-item-image">
+                        <img src="img/slide1.jpg" alt="">
+                    </div>
+
+                    <div class="slider-item-text">
+                        <h2 class="text-header">Полный зимний комплект</h2>
+                        <p class="text-title">Полушубок + кожаные брюки + кожаные ботинки</p>
+                        <p class="text-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic autem molestiae maiores eaque libero!</p>
+                        <div class="price">
+                            <div class="price-text">Цена: 120$</div>
+                            <div class="price-cart"><a href="#">Заказывай прямо сейчас</a></div>
+                        </div>
+                    </div>
+
+                </div>
                 
                 
             </div>
-        </header>
-        <main></main>
+        </main>
         <footer></footer>
     </div>
 
 </body>
+<script src="script/script.js"></script>
 
 </html>
